@@ -15,5 +15,6 @@ repositories {
 dependencies {
     compile "com.sparkjava:spark-core:2.9.3"
     compile "com.sparkjava:spark-template-handlebars:2.7.1"
+    compile 'io.github.cdimascio:dotenv-java:2.2.0'
     implementation "com.stripe:stripe-java:20.64.0"
 }
