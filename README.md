@@ -23,8 +23,10 @@ Please first run:
 $ git clone https://github.com/cary-stripe/sa-takehome-project-java.git && cd sa-takehome-project-java
 ```
 
-After you are in the project root directory to complete the light set up please first rename `sample.env` to `.env` and replace the values with both your publishable and secret key from your
-Stripe Dashboard.
+After you are in the project root directory to complete the light set up please first rename `sample.env` to `.env` and replace the values with both your publishable and secret key from your Stripe Dashboard.
+
+We are using the [dotenv-java library](https://github.com/cdimascio/dotenv-java). This library has already been installed for you to use.
+Please see link for additional usage information.
 
 Once you have set up your environment file, in order to build and run, you can run the following commands
 
